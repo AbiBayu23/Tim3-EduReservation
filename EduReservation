@@ -15,4 +15,17 @@ int main()
       char kelas3[]= "MKB 1C";
 
       char tambahJam[8];
+
+    printf("Pilih menu dengan angka 1-4\n");
+    scanf("%d",&pilihanMenu);
+        switch (pilihanMenu)
+        {
+        case 1:
+
+            Ruang:
+            system("cls");
+            printf("\nRuangan kelas yang tersedia :\n");
+            printf("1. Ruang MKB 1\n");
+            printf("2. Ruang MKB 2\n");
+            printf("3. Ruang MKB 3\n\n");
 }
