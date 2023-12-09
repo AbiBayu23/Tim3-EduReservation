@@ -28,4 +28,5 @@ int main()
             printf("1. Ruang MKB 1\n");
             printf("2. Ruang MKB 2\n");
             printf("3. Ruang MKB 3\n\n");
+        }
 }
