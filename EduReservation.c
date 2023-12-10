@@ -15,6 +15,16 @@ int main()
       char kelas3[]= "MKB 1C";
 
       char tambahJam[8];
+    //TAMPILAN AWAL//
+
+    awal:
+    system("cls");
+    printf("=========================================================================================================\n");
+    printf("\t\t\t\t        PROGRAM BOOKING KELAS \n");
+    printf("\t\t\t\t  UNIVERSITAS PENDIDIKAN INDONESISA \n");
+    printf("\t\t\t\t          KAMPUS PURWAKARTA \n");
+    printf("=========================================================================================================\n\n");
+
 
     printf("Pilih menu dengan angka 1-4\n");
     scanf("%d",&pilihanMenu);
@@ -28,5 +38,22 @@ int main()
             printf("1. Ruang MKB 1\n");
             printf("2. Ruang MKB 2\n");
             printf("3. Ruang MKB 3\n\n");
+                printf("Pilih Ruangan\n");
+                scanf("%d",&ruangan);
+                if (ruangan == 1)
+                {
+                    ruangan= ruang1;
+                }
+                else if (ruangan == 2){
+                    ruangan=ruang2;
+                }
+                else if (ruangan == 3){
+                    ruangan=ruang3;
+                }
+                else if (ruangan > 3){
+                    printf("Tolong pilih ruangan yang tersedia\n");
+                    goto Ruang;
+                }
         }
+    
 }
